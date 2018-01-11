@@ -1,0 +1,15 @@
+.sched-button {
+  float:right;
+}
+.intro-vid {
+  text-align: center;
+  /* max-width: 80%; */
+}
+
+.page-title{
+  display: inline-block;
+}
+.content {
+  width: 75%;
+  margin: auto;
+}

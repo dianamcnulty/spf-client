@@ -1,0 +1,13 @@
+ nav {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.dropdown-content{
+  display:none;
+}
+.training-btn:hover .dropdown-content {
+  display:block;
+  text-align: left;
+
+}
