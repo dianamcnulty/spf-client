@@ -9,6 +9,7 @@ import { PgclassesComponent } from './pgclasses/pgclasses.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { FaqComponent } from './faq/faq.component';
+import { WeatherComponent } from './weather/weather.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FaqComponent } from './faq/faq.component';
     WelcomeComponent,
     AboutComponent,
     PgclassesComponent,
-    FaqComponent
+    FaqComponent,
+    WeatherComponent
   ],
   imports: [
     BrowserModule,

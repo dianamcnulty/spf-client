@@ -50,6 +50,9 @@ nav {
 }
 .training-btn:hover {
 }
+a{
+  padding: 0 10px;
+}
 /* @media screen and (max-width: 480px) {
 
 } */

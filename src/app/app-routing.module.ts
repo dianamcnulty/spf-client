@@ -6,6 +6,8 @@ import { AboutComponent } from './about/about.component';
 import { PgclassesComponent } from './pgclasses/pgclasses.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FaqComponent } from './faq/faq.component'
+import { WeatherComponent } from './weather/weather.component'
+
 const routes: Routes = [
     {
         path: 'about',
@@ -14,6 +16,10 @@ const routes: Routes = [
     {
         path: 'faq',
         component: FaqComponent
+    },
+    {
+        path: 'weather',
+        component: WeatherComponent
     },
     {
         path: 'classes',
