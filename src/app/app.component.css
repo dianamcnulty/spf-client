@@ -1,5 +1,17 @@
+header{
+  /* background: linear-gradient(to bottom right, #70e1f5, #ffd194); */
+  /* background-image: url(../assets/banner2.jpg); */
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  min-height:70px;
+  background-position: center bottom;
+  background-size: 100%;
+}
+
 .logo{
   width:15%;
+  max-height: 79px;
+  max-width: 123px;
 }
 h1{
   margin: 6px 10px 0 0px;
@@ -21,13 +33,13 @@ h3 {
 }
 nav {
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 10px;
+  display: inline-block;
 }
 .dropdown-content{
   text-align: left;
   display:none;
-  border: white 2px solid;
   position: absolute;
   top: 35px;
   padding: 10px;
@@ -38,3 +50,6 @@ nav {
 }
 .training-btn:hover {
 }
+/* @media screen and (max-width: 480px) {
+
+} */
