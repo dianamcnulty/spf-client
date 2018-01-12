@@ -35,6 +35,12 @@ button:hover {
 .lighten-bg{
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 5px;
+  padding: 15px;
+}
+label{
+  font-variant: small-caps;
+  font-weight: bold;
+  font-size: 13pt;
 }
 footer{
   background-color: rgba(0, 0, 0, 0.1);

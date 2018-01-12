@@ -1,14 +1,14 @@
 <header>
-<img class='logo' src='assets/SPFLogoColor.png'>
+<img  class='logo' src='assets/SPFLogoColor.png'>
 <div class='title-container'>
 <h1 class='title'>School of Personal Flight</h1>
 <h3 class='title'>Powered Paragliding Training</h3>
 </div>
 <nav>
-  <button class='training-btn'  routerLink="/">Training</button>
+  <button class='training-btn'  >Training</button>
   <div id='dropdown-content' class="dropdown-content">
-    <a routerLink="/">Classes</a>
-    <a routerLink="/">FAQ's</a>
+    <a routerLink="/classes">Classes</a>
+    <a routerLink="/faq">FAQ's</a>
     <a href='www.weather.com'>Weather Tips</a>
   </div>
   <button routerLink="/">Dave's Blog</button>
@@ -17,4 +17,4 @@
   <button routerLink="/">Strobe Lights</button>
 </nav>
 </header>
-<app-about></app-about>
+<router-outlet></router-outlet>

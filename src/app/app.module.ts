@@ -5,16 +5,22 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { AboutComponent } from './about/about.component';
+import { PgclassesComponent } from './pgclasses/pgclasses.component';
 
+import { AppRoutingModule } from './app-routing.module';
+import { FaqComponent } from './faq/faq.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    AboutComponent
+    AboutComponent,
+    PgclassesComponent,
+    FaqComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
