@@ -6,15 +6,19 @@
 </div>
 <nav>
   <button class='training-btn'  >Training</button>
-  <div id='dropdown-content' class="dropdown-content">
+  <div id='dropdown-training' class="dropdown-training">
     <a routerLink="/classes">Classes</a>
     <a routerLink="/faq">FAQ's</a>
     <a routerLink='/weather'>Local Weather</a>
   </div>
-  <!-- <button routerLink="/blog">Dave's Blog</button> -->
+  <button routerLink="/blog">Dave's Blog</button>
   <button routerLink="/contact">Contact</button>
   <button routerLink="/about">About</button>
-  <!-- <button routerLink="/">Strobe Lights</button> -->
+  <button class='products-btn'>Products</button>
+  <div id='dropdown-products' class="dropdown-products">
+    <a routerLink="/lights">Strobe Lights</a>
+    <a routerLink="/motors">Paramotor's</a>
+  </div>
 </nav>
 </header>
 <router-outlet></router-outlet>

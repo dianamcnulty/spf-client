@@ -37,18 +37,21 @@ nav {
   right: 10px;
   display: inline-block;
 }
-.dropdown-content{
-  text-align: left;
+.dropdown-training,  .dropdown-products{
+  text-align: right;
   display:none;
   position: absolute;
   top: 35px;
+  right: 10px;
   padding: 10px;
   margin:0;
+  width: 300px;
 }
-.dropdown-content:hover, .training-btn:hover + .dropdown-content {
+.dropdown-training:hover, .training-btn:hover + .dropdown-training {
+  display:inline-block;
+}
+.dropdown-products:hover, .products-btn:hover + .dropdown-products {
   display:block;
-}
-.training-btn:hover {
 }
 a{
   padding: 0 10px;
