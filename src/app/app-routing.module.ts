@@ -7,6 +7,7 @@ import { PgclassesComponent } from './pgclasses/pgclasses.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FaqComponent } from './faq/faq.component'
 import { WeatherComponent } from './weather/weather.component'
+import { ContactComponent } from './contact/contact.component'
 
 const routes: Routes = [
     {
@@ -24,6 +25,10 @@ const routes: Routes = [
     {
         path: 'classes',
         component: PgclassesComponent
+    },
+    {
+        path: 'contact',
+        component: ContactComponent
     },
     {
         path: '',
