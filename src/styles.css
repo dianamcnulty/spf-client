@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+  background: linear-gradient(to bottom right, #70e1f5, #ffd194);
+}
+body {
+  font-family: Georgia;
+}
+h1, h2 {
+  font-variant: small-caps;
+}
+button {
+  font-family: Georgia;
+  font-weight: bold;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #f46b45, #f7b733);
+  font-variant: small-caps;
+  font-size: 10pt;
+}
+button:hover {
+  background: linear-gradient(to top, #f46b45, #f7b733);
+}
+.page-title {
+  padding: 0 20pt;
+}

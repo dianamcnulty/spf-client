@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  showTrainingLinks() {
+    const dropDown = document.getElementById('dropdown-content')
+    dropDown.classList.add('dropdown-content-show');
+
+  }
 }
