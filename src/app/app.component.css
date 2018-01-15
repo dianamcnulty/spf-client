@@ -12,6 +12,7 @@ header{
   width:15%;
   max-height: 79px;
   max-width: 123px;
+  cursor: pointer;
 }
 h1{
   margin: 6px 10px 0 0px;
@@ -23,6 +24,7 @@ h3 {
   display: inline-block;
   position: absolute;
   top: 0;
+    cursor: pointer;
 }
 .title{
   font-family: "Georgia";
